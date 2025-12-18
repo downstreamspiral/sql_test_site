@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookings Open now!</title>
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.13.2/build/css/intlTelInput.css">
 </head>
 
 <body>
 
-    <nav>
+    <nav class="flex">
         <div>
             <a href="">
                 <img src="" alt="Home">
@@ -24,11 +28,180 @@
         </ul>
     </nav>
 
-
-
     <section>
+        <div>
+            <h1>Welcome Aboard!</h1>
+            <p>Your Seat. Your Schedule. Your Peace of Mind.</p>
+            <p>Thoughtfully chosen flights, reliable bookings, and comfort you can count on.</p>
+        </div>
+        <div>
+            <button>Book Now</button>
+        </div>
 
     </section>
+
+    <section class="flex ai-center jc-center">
+        <div>
+            <h3>One-way Flights</h3>
+            <p>Ideal for flexible plans and open-ended travel</p>
+            <p>Book a single journey with no return commitment</p>
+            <div>
+                <button>Search One-way</button>
+            </div>
+
+        </div>
+
+        <div>
+            <h3>Round-Trip Flights</h3>
+            <p>Best value for planned travel</p>
+            <p>Book your departure and return together with ease.</p>
+            <div>
+                <button>Search Round-Trip</button>
+            </div>
+        </div>
+
+        <div>
+            <h3>Multi-City Flights</h3>
+            <p>Travel across multiple destinations in one trip.</p>
+            <p>Perfect for extended journeys and complex itineraries.</p>
+
+            <div>
+                <button>Plan Multi-City</button>
+            </div>
+
+        </div>
+
+        <div>
+            <h3>Direct Flights</h3>
+            <p>Reach your destination faster with non-stop options.</p>
+            <p>Save time and avoid unnecessary layovers.</p>
+
+            <div>
+                <button>Search Direct-FLights</button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="flex fd-column jc-center ai-center">
+        <div>
+            <h2>Check Your Booking</h2>
+            <p>View your trip details, flight status, and updates using your booking information.</p>
+        </div>
+
+        <div>
+            <div>
+                <p>Booking ID</p>
+                <input type="text" placeholder="ex-DELX1203592" required>
+            </div>
+            <div>
+                <p>E-Mail or Mobile Number</p>
+                <input id="email" type="email">
+                <p>or</p>
+                <input id="phone" type="tel">
+
+                <div>
+                    <button type="submit" id="submitBtn" disabled>Check Booking</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex ai-center jc-center">
+        <div>
+            <h3>Extra Savings for First-Time Bookings</h3>
+            <p>Exclusive offer for new users</p>
+            <ol>
+                <li>Valid on first flight booking</li>
+                <li>Limited usage per account</li>
+            </ol>
+
+            <div>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+        <div>
+            <h3>Flat ₹2,000 Off with HDFC Credit Cards</h3>
+            <p>Valid on domestic flight bookings</p>
+            <ol>
+                <li>Applicable on HDFC Bank credit cards</li>
+                <li>Minimum booking value ₹6,000</li>
+            </ol>
+
+            <div>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+        <div>
+            <h3>Up to ₹1,500 Off with ICICI Cards</h3>
+            <p>Save more on select flight routes</p>
+            <ol>
+                <li>ICICI Credit & Debit Cards</li>
+                <li>Limited-time bank offer</li>
+            </ol>
+
+            <div>
+                <button>Apply Now</button>
+            </div>
+
+        </div>
+
+        <div>
+            <h3>Special Fares for Group Bookings (4+ Travellers)</h3>
+            <p>Lower fares when you travel together</p>
+
+            <ol>
+                <li>Applicable on select airlines</li>
+                <li>Ideal for families & group trips</li>
+            </ol>
+
+            <div>
+                <button>Apply Now</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Airlines we operate across</h2>
+
+        <div class="slider">
+            <div class="slides" id="slides">
+                <img src="/assets/images/Air-India-New-Logo.png" alt="AirIndia">
+                <img src="/assets/images/Lufthansa_logo_PNG1.png" alt="Lufthansa">
+                <img src="/assets/images/Emirates_logo_PNG6.png" alt="Emirates">
+                <img src="/assets/images/SpiceJet-Logo-PNG1.png" alt="Spice Jet">
+                <img src="/assets/images/Etihad_Airways_logo_PNG5.png" alt="Ethiad Airways">
+                <img src="/assets/images/IndiGo-Logo-PNG2.png" alt="Indigo">
+                <img src="/assets/images/Qatar_Airways_logo_PNG4.png" alt="Qatar Airways">
+                <img src="/assets/images/British_airways_logo_PNG1.png" alt="British Airways">
+                <img src="/assets/images/United_airlines_logo_PNG1.png" alt="United Airlines">
+                <img src="/assets/images/Vistara-Logo-PNG1.png" alt="Vistara">
+
+                <img src="/assets/images/Air-India-New-Logo.png" alt="AirIndia">
+                <img src="/assets/images/Lufthansa_logo_PNG1.png" alt="Lufthansa">
+                <img src="/assets/images/Emirates_logo_PNG6.png" alt="Emirates">
+                <img src="/assets/images/SpiceJet-Logo-PNG1.png" alt="Spice Jet">
+                <img src="/assets/images/Etihad_Airways_logo_PNG5.png" alt="Ethiad Airways">
+                <img src="/assets/images/IndiGo-Logo-PNG2.png" alt="Indigo">
+                <img src="/assets/images/Qatar_Airways_logo_PNG4.png" alt="Qatar Airways">
+                <img src="/assets/images/British_airways_logo_PNG1.png" alt="British Airways">
+                <img src="/assets/images/United_airlines_logo_PNG1.png" alt="United Airlines">
+                <img src="/assets/images/Vistara-Logo-PNG1.png" alt="Vistara">
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.13.2/build/js/intlTelInput.min.js"></script>
+    <script src="/js/countrycode.js"></script>
+    <script src="/js/bookingsubmit.js"></script>
+    <script src="/js/slideshow.js"></script>
+
 </body>
 
 </html>
