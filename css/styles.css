@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+/* slide section */
+.slider {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.slides {
+    display: flex;
+    width: max-content;
+    animation: move 120s linear infinite;
+}
+
+.slides img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
