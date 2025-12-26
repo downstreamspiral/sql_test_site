@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/downstreamspiral/sql_test_site#readme",
   "dependencies": {
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
     "express": "^5.2.1",
     "nodemon": "^3.1.11"
   }
