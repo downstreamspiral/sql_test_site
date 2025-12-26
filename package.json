@@ -2,9 +2,10 @@
   "name": "sql_site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon js/server.js",
+    "dev": "concurrently \"npm start\" \"node js/browsersync.js\""
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,10 @@
   "homepage": "https://github.com/downstreamspiral/sql_test_site#readme",
   "dependencies": {
     "browser-sync": "^3.0.4",
-    "concurrently": "^9.2.1",
     "express": "^5.2.1",
     "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   }
 }
