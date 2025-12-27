@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon js/server.js",
-    "dev": "concurrently \"npm start\" \"node js/browsersync.js\""
+    "dev": "concurrently \"npm start\" "
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/downstreamspiral/sql_test_site#readme",
   "dependencies": {
-    "browser-sync": "^3.0.4",
     "express": "^5.2.1",
     "nodemon": "^3.1.11"
   },
