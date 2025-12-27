@@ -2,7 +2,7 @@
   "name": "sql_site",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon js/server.js",
     "dev": "concurrently \"npm start\" "
