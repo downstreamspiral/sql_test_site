@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookings Open now!</title>
 
+
+    <link rel="stylesheet" href="/css/output.css">
+
     <link rel="stylesheet" href="/css/styles.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.13.2/build/css/intlTelInput.css">
@@ -13,7 +16,7 @@
 
 <body>
 
-    <nav class="flex">
+    <nav class="flex items-center justify-between max-w-screen-md ">
         <div>
             <a href="">
                 <img src="" alt="Home">
@@ -28,145 +31,163 @@
         </ul>
     </nav>
 
-    <section>
-        <div>
-            <h1>Welcome Aboard!</h1>
-            <p>Your Seat. Your Schedule. Your Peace of Mind.</p>
-            <p>Thoughtfully chosen flights, reliable bookings, and comfort you can count on.</p>
-        </div>
-        <div>
-            <button>Book Now</button>
-        </div>
+    <section class="max-w-screen-md">
 
-    </section>
-
-    <section class="flex ai-center jc-center">
-        <div>
-            <h3>One-way Flights</h3>
-            <p>Ideal for flexible plans and open-ended travel</p>
-            <p>Book a single journey with no return commitment</p>
+        <div class="headliner w-full my-7 mx-1.5 ">
+            <div class="p-2">
+                <h1>Welcome Aboard!</h1>
+                <p>Your Seat. Your Schedule. Your Peace of Mind.</p>
+                <p>Thoughtfully chosen flights, reliable bookings, and comfort you can count on.</p>
+            </div>
             <div>
-                <button>Search One-way</button>
+                <button>Book Now</button>
             </div>
 
-        </div>
-
-        <div>
-            <h3>Round-Trip Flights</h3>
-            <p>Best value for planned travel</p>
-            <p>Book your departure and return together with ease.</p>
-            <div>
-                <button>Search Round-Trip</button>
-            </div>
-        </div>
-
-        <div>
-            <h3>Multi-City Flights</h3>
-            <p>Travel across multiple destinations in one trip.</p>
-            <p>Perfect for extended journeys and complex itineraries.</p>
-
-            <div>
-                <button>Plan Multi-City</button>
-            </div>
-
-        </div>
-
-        <div>
-            <h3>Direct Flights</h3>
-            <p>Reach your destination faster with non-stop options.</p>
-            <p>Save time and avoid unnecessary layovers.</p>
-
-            <div>
-                <button>Search Direct-FLights</button>
-            </div>
         </div>
 
 
     </section>
 
-    <section class="flex fd-column jc-center ai-center">
-        <div>
-            <h2>Check Your Booking</h2>
-            <p>View your trip details, flight status, and updates using your booking information.</p>
-        </div>
+    <section class="max-w-screen-md">
 
-        <div>
-            <div>
-                <p>Booking ID</p>
-                <input type="text" placeholder="ex-DELX1203592" required>
+        <div class="flex ">
+            <div class="card">
+                <h3>One-way Flights</h3>
+                <p>Ideal for flexible plans and open-ended travel</p>
+                <p>Book a single journey with no return commitment</p>
+                <div>
+                    <button>Search One-way</button>
+                </div>
+
             </div>
-            <div>
-                <p>E-Mail or Mobile Number</p>
-                <input id="email" type="email">
-                <p>or</p>
-                <input id="phone" type="tel">
+
+            <div class="card">
+                <h3>Round-Trip Flights</h3>
+                <p>Best value for planned travel</p>
+                <p>Book your departure and return together with ease.</p>
+                <div>
+                    <button>Search Round-Trip</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Multi-City Flights</h3>
+                <p>Travel across multiple destinations in one trip.</p>
+                <p>Perfect for extended journeys and complex itineraries.</p>
 
                 <div>
-                    <button type="submit" id="submitBtn" disabled>Check Booking</button>
+                    <button>Plan Multi-City</button>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <h3>Direct Flights</h3>
+                <p>Reach your destination faster with non-stop options.</p>
+                <p>Save time and avoid unnecessary layovers.</p>
+
+                <div>
+                    <button>Search Direct-FLights</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="max-w-screen-md">
+
+        <div>
+            <div>
+                <h2>Check Your Booking</h2>
+                <p>View your trip details, flight status, and updates using your booking information.</p>
+            </div>
+
+            <div>
+                <div>
+                    <p>Booking ID</p>
+                    <input type="text" placeholder="ex-DELX1203592" required>
+                </div>
+                <div>
+                    <p>E-Mail or Mobile Number</p>
+                    <input id="email" type="email">
+                    <p>or</p>
+                    <input id="phone" type="tel">
+
+                    <div>
+                        <button type="submit" id="submitBtn" disabled>Check Booking</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <section class="flex ai-center jc-center">
-        <div>
-            <h3>Extra Savings for First-Time Bookings</h3>
-            <p>Exclusive offer for new users</p>
-            <ol>
-                <li>Valid on first flight booking</li>
-                <li>Limited usage per account</li>
-            </ol>
-
-            <div>
-                <button>Apply Now</button>
-            </div>
-        </div>
-
-        <div>
-            <h3>Flat ₹2,000 Off with HDFC Credit Cards</h3>
-            <p>Valid on domestic flight bookings</p>
-            <ol>
-                <li>Applicable on HDFC Bank credit cards</li>
-                <li>Minimum booking value ₹6,000</li>
-            </ol>
-
-            <div>
-                <button>Apply Now</button>
-            </div>
-        </div>
-
-        <div>
-            <h3>Up to ₹1,500 Off with ICICI Cards</h3>
-            <p>Save more on select flight routes</p>
-            <ol>
-                <li>ICICI Credit & Debit Cards</li>
-                <li>Limited-time bank offer</li>
-            </ol>
-
-            <div>
-                <button>Apply Now</button>
-            </div>
-
-        </div>
-
-        <div>
-            <h3>Special Fares for Group Bookings (4+ Travellers)</h3>
-            <p>Lower fares when you travel together</p>
-
-            <ol>
-                <li>Applicable on select airlines</li>
-                <li>Ideal for families & group trips</li>
-            </ol>
-
-            <div>
-                <button>Apply Now</button>
-            </div>
-
-        </div>
 
     </section>
 
-    <section>
+    <section class="max-w-screen-md">
+
+        <div class="flex">
+            <div>
+                <h3>Extra Savings for First-Time Bookings</h3>
+                <p>Exclusive offer for new users</p>
+                <ol>
+                    <li>Valid on first flight booking</li>
+                    <li>Limited usage per account</li>
+                </ol>
+
+                <div>
+                    <button>Apply Now</button>
+                </div>
+            </div>
+
+            <div>
+                <h3>Flat ₹2,000 Off with HDFC Credit Cards</h3>
+                <p>Valid on domestic flight bookings</p>
+                <ol>
+                    <li>Applicable on HDFC Bank credit cards</li>
+                    <li>Minimum booking value ₹6,000</li>
+                </ol>
+
+                <div>
+                    <button>Apply Now</button>
+                </div>
+            </div>
+
+            <div>
+                <h3>Up to ₹1,500 Off with ICICI Cards</h3>
+                <p>Save more on select flight routes</p>
+                <ol>
+                    <li>ICICI Credit & Debit Cards</li>
+                    <li>Limited-time bank offer</li>
+                </ol>
+
+                <div>
+                    <button>Apply Now</button>
+                </div>
+
+            </div>
+
+            <div>
+                <h3>Special Fares for Group Bookings (4+ Travellers)</h3>
+                <p>Lower fares when you travel together</p>
+
+                <ol>
+                    <li>Applicable on select airlines</li>
+                    <li>Ideal for families & group trips</li>
+                </ol>
+
+                <div>
+                    <button>Apply Now</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="max-w-screen-md">
         <h2>Airlines we operate across</h2>
 
         <div class="slider">
@@ -197,8 +218,29 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="max-w-screen-md">
+        <div>
+            <div>
+                <img src="" alt="">
 
+            </div>
+
+            <div>
+                <ul>
+                    <li>Help Center</li>
+                    <li>Cancellation & Refunds</li>
+                    <li>Hotel Reservations</li>
+                    <li>Holiday Packages</li>
+                    <li>Terms & Conditions</li>
+                    <li>Group Bookings</li>
+                    <li>Travel FAQs</li>
+                </ul>
+            </div>
+
+            <div>
+                <p>© 2025 CompanyName. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.13.2/build/js/intlTelInput.min.js"></script>
