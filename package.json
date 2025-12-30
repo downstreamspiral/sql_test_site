@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon js/server.js",
-    "dev": "concurrently \"npm start\" "
+    "start": "nodemon app.js",
+    "dev": "concurrently \"npm start\" \"node browser-sync.js\" "
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
     "nodemon": "^3.1.11"
   },
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "autoprefixer": "^10.4.23",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
   }
 }
