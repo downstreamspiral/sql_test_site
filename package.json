@@ -24,8 +24,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.23",
     "browser-sync": "^3.0.4",
-    "concurrently": "^9.2.1",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17"
+    "concurrently": "^9.2.1"
   }
 }

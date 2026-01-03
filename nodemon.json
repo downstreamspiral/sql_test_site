@@ -1,5 +1,5 @@
 {
-    "watch" : ["app.js", "public"],
+    "watch" : ["app.js","browser-sync.js", "public"],
     "ext" : "js,json,html,css",
     "ignore": ["node_modules"]
 }
