@@ -7,87 +7,109 @@
     <title>Bookings Open now!</title>
 
 
-    <link rel="stylesheet" href="/css/output.css">
-
-    <link rel="stylesheet" href="/css/styles.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.13.2/build/css/intlTelInput.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/js/tailconfig.js">
+    </script>
+
+    <script src="https://kit.fontawesome.com/6f41c73879.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
 
-    <nav class="flex items-center justify-between max-w-screen-md ">
-        <div>
-            <a href="">
-                <img src="" alt="Home">
-            </a>
+    <div class="block h-4  max-w-screen-md"></div>
+
+    <nav class="w-full h-12">
+
+        <div
+            class="nav-bar flex items-center justify-between fixed top-0 left-0 right-0 h-16 z-50 px-10 py-5 bg-white/20 backdrop-blur rounded-sm border border-5  border-gray-100">
+            <div>
+                <a href="">
+                    <img src="" alt="Home">
+                </a>
+            </div>
+
+            <ul class="flex gap-7">
+                <li>Flights</li>
+                <li>Check Bookings</li>
+                <li>Offers</li>
+
+            </ul>
+
+            <div>
+                <button>Log in/Sign up</button>
+            </div>
         </div>
 
-        <ul>
-            <li>Flights</li>
-            <li>Check Bookings</li>
-            <li>Offers</li>
-            <li>Log in/Sign up</li>
-        </ul>
     </nav>
 
-    <section class="max-w-screen-md">
+    <section>
 
-        <div class="headliner w-full my-7 mx-1.5 ">
-            <div class="p-2">
+        <div class="headliner w-full h-auto px-20 py-20 flex justify-end gap-7">
+            <div class="w-full">
                 <h1>Welcome Aboard!</h1>
                 <p>Your Seat. Your Schedule. Your Peace of Mind.</p>
                 <p>Thoughtfully chosen flights, reliable bookings, and comfort you can count on.</p>
+
+                <div class="w-full h-auto py-10 px-2">
+                    <button>Book Now</button>
+                </div>
             </div>
-            <div>
-                <button>Book Now</button>
+
+            <div class="w-full flex items-center justify-center">
+                <img src="" alt="hero">
             </div>
+
 
         </div>
 
 
     </section>
 
-    <section class="max-w-screen-md">
+    <section>
 
-        <div class="flex ">
-            <div class="card">
-                <h3>One-way Flights</h3>
+        <div class="bg-slate-200 grid grid-cols-4 gap-2 border border-black pr-2 py-20 max-w-screen-2xl backdrop-blur ">
+
+
+            <div class="card w-fit px-5 py-10 bg-slate-400 rounded-md">
+                <h3 class="w-fit h-auto m-auto"><i class="fa-solid fa-arrow-right"></i>One-way Flights</h3>
                 <p>Ideal for flexible plans and open-ended travel</p>
                 <p>Book a single journey with no return commitment</p>
-                <div>
-                    <button>Search One-way</button>
+                <div class="w-fit h-auto m-auto py-5">
+                    <button class="rounded-md cursor-pointer ">Search One-way</button>
                 </div>
 
             </div>
 
-            <div class="card">
-                <h3>Round-Trip Flights</h3>
+            <div class="card w-fit px-5 py-10 bg-slate-400 rounded-md">
+                <h3 class="w-fit h-auto m-auto">Round-Trip Flights</h3>
                 <p>Best value for planned travel</p>
                 <p>Book your departure and return together with ease.</p>
-                <div>
-                    <button>Search Round-Trip</button>
+                <div class="w-fit h-auto m-auto py-5">
+                    <button class="rounded-md cursor-pointer ">Search Round-Trip</button>
                 </div>
             </div>
 
-            <div class="card">
-                <h3>Multi-City Flights</h3>
+            <div class="card w-fit px-5 py-10 bg-slate-400 rounded-md">
+                <h3 class="w-fit h-auto m-auto">Multi-City Flights</h3>
                 <p>Travel across multiple destinations in one trip.</p>
                 <p>Perfect for extended journeys and complex itineraries.</p>
 
-                <div>
-                    <button>Plan Multi-City</button>
+                <div class="w-fit h-auto m-auto py-5">
+                    <button class="rounded-md cursor-pointer ">Plan Multi-City</button>
                 </div>
 
             </div>
 
-            <div class="card">
-                <h3>Direct Flights</h3>
+            <div class="card w-fit px-5 py-10 bg-slate-400 rounded-md">
+                <h3 class="w-fit h-auto m-auto">Direct Flights</h3>
                 <p>Reach your destination faster with non-stop options.</p>
                 <p>Save time and avoid unnecessary layovers.</p>
 
-                <div>
-                    <button>Search Direct-FLights</button>
+                <div class="w-fit h-auto m-auto py-5">
+                    <button class="rounded-md cursor-pointer ">Search Direct-FLights</button>
                 </div>
             </div>
 
@@ -96,9 +118,9 @@
 
     </section>
 
-    <section class="max-w-screen-md">
+    <section>
 
-        <div>
+        <div class="w-52 h-auto m-auto py-20 ">
             <div>
                 <h2>Check Your Booking</h2>
                 <p>View your trip details, flight status, and updates using your booking information.</p>
@@ -125,10 +147,10 @@
 
     </section>
 
-    <section class="max-w-screen-md">
+    <section>
 
-        <div class="flex">
-            <div>
+        <div class="flex justify-center items-center px-10 py-20 bg-slate-400 gap-6">
+            <div class="bg-gray-200 px-4 py-4 rounded-md">
                 <h3>Extra Savings for First-Time Bookings</h3>
                 <p>Exclusive offer for new users</p>
                 <ol>
@@ -141,7 +163,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="bg-gray-200 px-4 py-4 rounded-md">
                 <h3>Flat ₹2,000 Off with HDFC Credit Cards</h3>
                 <p>Valid on domestic flight bookings</p>
                 <ol>
@@ -154,7 +176,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="bg-gray-200 px-4 py-4 rounded-md">
                 <h3>Up to ₹1,500 Off with ICICI Cards</h3>
                 <p>Save more on select flight routes</p>
                 <ol>
@@ -168,8 +190,8 @@
 
             </div>
 
-            <div>
-                <h3>Special Fares for Group Bookings (4+ Travellers)</h3>
+            <div class="bg-gray-200 px-4 py-4 rounded-md">
+                <h3 class="text-wrap w-fit">Special Fares for Group Bookings (4+ Travellers)</h3>
                 <p>Lower fares when you travel together</p>
 
                 <ol>
@@ -187,46 +209,82 @@
 
     </section>
 
-    <section class="max-w-screen-md">
-        <h2>Airlines we operate across</h2>
+    <section>
 
-        <div class="slider">
-            <div class="slides" id="slides">
-                <img src="/assets/images/Air-India-New-Logo.png" alt="AirIndia">
-                <img src="/assets/images/Lufthansa_logo_PNG1.png" alt="Lufthansa">
-                <img src="/assets/images/Emirates_logo_PNG6.png" alt="Emirates">
-                <img src="/assets/images/SpiceJet-Logo-PNG1.png" alt="Spice Jet">
-                <img src="/assets/images/Etihad_Airways_logo_PNG5.png" alt="Ethiad Airways">
-                <img src="/assets/images/IndiGo-Logo-PNG2.png" alt="Indigo">
-                <img src="/assets/images/Qatar_Airways_logo_PNG4.png" alt="Qatar Airways">
-                <img src="/assets/images/British_airways_logo_PNG1.png" alt="British Airways">
-                <img src="/assets/images/United_airlines_logo_PNG1.png" alt="United Airlines">
-                <img src="/assets/images/Vistara-Logo-PNG1.png" alt="Vistara">
+        <div class="py-40 w-screen">
+            <h2 class="w-fit h-auto m-auto pb-40">Airlines we operate across</h2>
 
-                <img src="/assets/images/Air-India-New-Logo.png" alt="AirIndia">
-                <img src="/assets/images/Lufthansa_logo_PNG1.png" alt="Lufthansa">
-                <img src="/assets/images/Emirates_logo_PNG6.png" alt="Emirates">
-                <img src="/assets/images/SpiceJet-Logo-PNG1.png" alt="Spice Jet">
-                <img src="/assets/images/Etihad_Airways_logo_PNG5.png" alt="Ethiad Airways">
-                <img src="/assets/images/IndiGo-Logo-PNG2.png" alt="Indigo">
-                <img src="/assets/images/Qatar_Airways_logo_PNG4.png" alt="Qatar Airways">
-                <img src="/assets/images/British_airways_logo_PNG1.png" alt="British Airways">
-                <img src="/assets/images/United_airlines_logo_PNG1.png" alt="United Airlines">
-                <img src="/assets/images/Vistara-Logo-PNG1.png" alt="Vistara">
+            <div>
+                <div class="carousel flex w-full">
+
+
+                    <div class="group flex justify-center items-center w-max h-auto rounded-sm " id="group">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/Air-India-New-Logo.png"
+                            alt="AirIndia">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/Lufthansa_logo_PNG1.png"
+                            alt="Lufthansa">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/Emirates_logo_PNG6.png"
+                            alt="Emirates">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/SpiceJet-Logo-PNG1.png"
+                            alt="Spice Jet">
+                        <img class="max-h-full max-w-full object-contain"
+                            src="/assets/images/Etihad_Airways_logo_PNG5.png" alt="Ethiad Airways">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/IndiGo-Logo-PNG2.png"
+                            alt="Indigo">
+                        <img class="max-h-full max-w-full object-contain"
+                            src="/assets/images/Qatar_Airways_logo_PNG4.png" alt="Qatar Airways">
+                        <img class="max-h-full max-w-full object-contain"
+                            src="/assets/images/British_airways_logo_PNG1.png" alt="British Airways">
+                        <img class="max-h-full max-w-full object-contain"
+                            src="/assets/images/United_airlines_logo_PNG1.png" alt="United Airlines">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/Vistara-Logo-PNG1.png"
+                            alt="Vistara">
+
+                    </div>
+
+                    <div aria-hidden class="group flex justify-center items-center w-max h-auto rounded-sm">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/Air-India-New-Logo.png"
+                            alt="AirIndia">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/Lufthansa_logo_PNG1.png"
+                            alt="Lufthansa">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/Emirates_logo_PNG6.png"
+                            alt="Emirates">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/SpiceJet-Logo-PNG1.png"
+                            alt="Spice Jet">
+                        <img class="max-h-full max-w-full object-contain"
+                            src="/assets/images/Etihad_Airways_logo_PNG5.png" alt="Ethiad Airways">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/IndiGo-Logo-PNG2.png"
+                            alt="Indigo">
+                        <img class="max-h-full max-w-full object-contain"
+                            src="/assets/images/Qatar_Airways_logo_PNG4.png" alt="Qatar Airways">
+                        <img class="max-h-full max-w-full object-contain"
+                            src="/assets/images/British_airways_logo_PNG1.png" alt="British Airways">
+                        <img class="max-h-full max-w-full object-contain"
+                            src="/assets/images/United_airlines_logo_PNG1.png" alt="United Airlines">
+                        <img class="max-h-full max-w-full object-contain" src="/assets/images/Vistara-Logo-PNG1.png"
+                            alt="Vistara">
+
+
+                    </div>
+
+                </div>
+
+
             </div>
 
         </div>
+
     </section>
 
-    <footer class="max-w-screen-md">
-        <div>
+    <footer class="w-screen h-14 py-36">
+        <div class="w-full h-auto flex items-center justify-between gap-6 px-20 py-4">
             <div>
-                <img src="" alt="">
+                <img src="" alt="logo">
 
             </div>
 
-            <div>
-                <ul>
+            <div class="w-full h-auto">
+                <ul class="grid grid-rows-2 grid-flow-col gap-4">
                     <li>Help Center</li>
                     <li>Cancellation & Refunds</li>
                     <li>Hotel Reservations</li>
@@ -237,10 +295,13 @@
                 </ul>
             </div>
 
-            <div>
-                <p>© 2025 CompanyName. All rights reserved.</p>
-            </div>
         </div>
+
+        <p class="w-96 h-auto m-auto py-20">© 2025 CompanyName. All rights reserved.</p>
+
+
+
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.13.2/build/js/intlTelInput.min.js"></script>
