@@ -39,7 +39,7 @@
             </ul>
 
             <div>
-                <button>Log in/Sign up</button>
+                <button onclick="location.href='login.html'">Log in/Sign up</button>
             </div>
         </div>
 
@@ -84,7 +84,7 @@
             </div>
 
             <div class="card w-fit px-5 py-10 bg-slate-400 rounded-md">
-                <h3 class="w-fit h-auto m-auto">Round-Trip Flights</h3>
+                <h3 class="w-fit h-auto m-auto"> <i class="fa-solid fa-circle-notch"></i>Round-Trip Flights</h3>
                 <p>Best value for planned travel</p>
                 <p>Book your departure and return together with ease.</p>
                 <div class="w-fit h-auto m-auto py-5">
@@ -93,7 +93,7 @@
             </div>
 
             <div class="card w-fit px-5 py-10 bg-slate-400 rounded-md">
-                <h3 class="w-fit h-auto m-auto">Multi-City Flights</h3>
+                <h3 class="w-fit h-auto m-auto"> <i class="fa-regular fa-building"></i>Multi-City Flights</h3>
                 <p>Travel across multiple destinations in one trip.</p>
                 <p>Perfect for extended journeys and complex itineraries.</p>
 
@@ -104,7 +104,7 @@
             </div>
 
             <div class="card w-fit px-5 py-10 bg-slate-400 rounded-md">
-                <h3 class="w-fit h-auto m-auto">Direct Flights</h3>
+                <h3 class="w-fit h-auto m-auto"> <i class="fa-solid fa-location-pin"></i>Direct Flights</h3>
                 <p>Reach your destination faster with non-stop options.</p>
                 <p>Save time and avoid unnecessary layovers.</p>
 
@@ -122,9 +122,14 @@
 
         <div class="w-52 h-auto m-auto py-20 ">
             <div>
-                <h2>Check Your Booking</h2>
-                <p>View your trip details, flight status, and updates using your booking information.</p>
+                <h2 class="w-full h-auto mx-auto text-center">Check Your Booking</h2>
+                <p class="w-fit h-auto mx-auto text-center">View your trip details, flight status, and
+                    updates using
+                    your
+                    booking information.
+                </p>
             </div>
+
 
             <div>
                 <div>
@@ -137,7 +142,7 @@
                     <p>or</p>
                     <input id="phone" type="tel">
 
-                    <div>
+                    <div class="flex items-center justify-center py-7">
                         <button type="submit" id="submitBtn" disabled>Check Booking</button>
                     </div>
                 </div>
