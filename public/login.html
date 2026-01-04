@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/js/tailconfig.js">
+    </script>
+
+    <script src="https://kit.fontawesome.com/6f41c73879.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <div class="card w-72 h-auto mt-24 mx-auto rounded-md px-10 py-5">
+
+        <div class="flex items-center justify-center">
+            <h1>Login</h1>
+        </div>
+
+
+
+        <div class="flex justify-center items-center">
+            <form action="/login" method="post">
+
+
+                <label for="username">Email or Username</label><br>
+                <input class="rounded-sm font-semibold w-18" autocomplete="off" type="text" id="username"
+                    name="username" placeholder="Enter your email or username" required>
+                <br><br>
+
+
+                <label for="password">Password</label><br>
+                <input class="rounded-sm font-semibold w-18" autocomplete="off" type="password" id="password"
+                    name="password" placeholder="Enter your password" required>
+                <br><br>
+
+
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember me</label>
+                <br><br>
+
+                <div class="flex items-center justify-center">
+
+                    <button class="rounded-md cursor-pointer" type="submit">Login</button>
+                </div>
+
+            </form>
+        </div>
+
+
+
+        <br>
+
+        <div class="flex items-center justify-center flex-col">
+            <p>
+                <a href="/forgot-password">Forgot password?</a>
+            </p>
+            <p>
+                Don’t have an account?
+                <a href="/register">Sign up</a>
+            </p>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
